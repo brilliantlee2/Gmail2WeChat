@@ -64,9 +64,8 @@ const MAX_CHECK = 5;
      - 访问脚本属性（`PropertiesService`）
      - 发起外部 HTTP 请求（`UrlFetchApp`）
 4. 运行成功后查看 **Execution log**，应看到类似：
-   ```text
+```text
    Pushed: x
-
 ```
 
 ### 4) 设置定时触发器（自动检查新邮件）
