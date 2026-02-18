@@ -30,7 +30,7 @@ https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxxxxxxx-xxxx-xxxx-xxxx-xxx
 1. 打开 Apps Script：<https://script.google.com>  
 2. 新建项目（空白项目）  
 3. 把默认 `Code.gs` 里的内容清空  
-4. 粘贴你的脚本代码  
+4. 粘贴`Redirect.gz`中脚本代码  
 5. 点击保存（项目名建议改成：`gmail-to-wecom`）
 
 ---
