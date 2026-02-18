@@ -53,16 +53,19 @@ const MAX_CHECK = 5;
 ### 3) 首次手动运行一次（非常重要）
 
 首次需要手动运行一次，用来完成 Google 授权（Gmail 权限 + 网络请求权限等）：
-    1.  在函数下拉框选择：notifyWeComForNewEmails
-    2.  点击运行 ▶️
-    3.  第一次会弹授权：
-    •   选择你的 Google 账号
-    •   如果提示“未验证应用”：进入 高级 → 继续
-    •   允许以下权限：
-    •   读取 Gmail（GmailApp）
-    •   访问脚本属性（PropertiesService）
-    •   发起外部 HTTP 请求（UrlFetchApp）
-    4.  运行成功后查看 Execution log，应看到类似：
+
+1. 在函数下拉框选择：`notifyWeComForNewEmails`
+2. 点击运行 ▶️
+3. 第一次会弹授权：
+   - 选择你的 Google 账号
+   - 如果提示“未验证应用”：进入 **高级** → **继续**
+   - 允许以下权限：
+     - 读取 Gmail（`GmailApp`）
+     - 访问脚本属性（`PropertiesService`）
+     - 发起外部 HTTP 请求（`UrlFetchApp`）
+4. 运行成功后查看 **Execution log**，应看到类似：
+   ```text
+   Pushed: x
 
 ```
 Pushed: x
