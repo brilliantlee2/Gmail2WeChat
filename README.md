@@ -48,8 +48,9 @@ const MAX_CHECK = 5;
     •   WECOM_WEBHOOK_URL：企业微信机器人 Webhook 链接（第一部分得到的 URL）
     •   LABEL：要监听的邮件标签（默认 INBOX）
     •   MAX_CHECK：每次最多检查多少封邮件（建议 5～20）
+```
 
-3) 首次手动运行一次（非常重要）
+### 3) 首次手动运行一次（非常重要）
 
 首次需要手动运行一次，用来完成 Google 授权（Gmail 权限 + 网络请求权限等）：
     1.  在函数下拉框选择：notifyWeComForNewEmails
@@ -63,10 +64,11 @@ const MAX_CHECK = 5;
     •   发起外部 HTTP 请求（UrlFetchApp）
     4.  运行成功后查看 Execution log，应看到类似：
 
-````
+```
 Pushed: x
 ```
-4) 设置定时触发器（自动检查新邮件）
+
+### 4) 设置定时触发器（自动检查新邮件）
 
 脚本目前只是“能跑”，要做到自动推送，还需要添加触发器：
     1.  左侧点击 Triggers（触发器）
