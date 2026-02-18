@@ -68,8 +68,6 @@ const MAX_CHECK = 5;
    Pushed: x
 
 ```
-Pushed: x
-```
 
 ### 4) 设置定时触发器（自动检查新邮件）
 
